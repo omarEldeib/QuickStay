@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div
       className="pt-20 pb-8 flex flex-col items-start justify-center px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 gap-6 sm:gap-8 text-white bg-cover bg-center min-h-[80vh] sm:min-h-[70vh]"
-      style={{ backgroundImage: `url(src/assets/heroImage.png)` }}
+      style={{ backgroundImage:  `url(${heroImage})` }}
     >
         <p className='bg-[#49B9FF]/50 rounded-full py-2 px-4 text-sm sm:text-base'>The Ultimate Hotel Experience</p>
         <h1 className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold max-w-4xl leading-tight'>Discover Your Perfect Gateway Destination</h1>
